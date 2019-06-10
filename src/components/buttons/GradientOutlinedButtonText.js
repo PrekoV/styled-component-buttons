@@ -15,6 +15,7 @@ export const GradientOutlinedButtonText = styled.button`
     min-height: 60px;
     min-width: 200px;
     font-size: 20px;
+    letter-spacing: 3px;
     cursor: pointer;
 `;
 

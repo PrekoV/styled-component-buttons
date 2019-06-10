@@ -37,7 +37,7 @@ function App() {
                         onMouseEnter={() => setClick(true)}
                         onMouseLeave={() => setClick(false)}
                     >
-                        click me
+                        here
                     </CustomButton>
                 </ButtomWrapper>
                 <ButtomWrapper>
@@ -50,7 +50,7 @@ function App() {
                             border={clickedOutlined && pinkDark}
                             color={clickedOutlined && pinkDark}
                         >
-                            not me
+                            is
                         </OutlinedButton>
                     </CircleButtonWrapper>
                 </ButtomWrapper>
@@ -60,7 +60,7 @@ function App() {
                         onMouseEnter={() => setGradient(true)}
                         onMouseLeave={() => setGradient(false)}
                     >
-                        yay
+                        johny!
                     </GradientButton>
                 </ButtomWrapper>
                 <ButtomWrapper>
@@ -69,7 +69,7 @@ function App() {
                         onMouseEnter={() => setClickOutlinedGradient(true)}
                         onMouseLeave={() => setClickOutlinedGradient(false)}
                     >
-                        no way
+                        you
                     </GradientOutlinedButton>
                 </ButtomWrapper>
                 <ButtomWrapper>
@@ -78,7 +78,7 @@ function App() {
                         onMouseEnter={() => setClickOutlinedRounded(true)}
                         onMouseLeave={() => setClickOutlinedRounded(false)}
                     >
-                        meow
+                        can't
                     </GradientOutlinedButtonRound>
                 </ButtomWrapper>
                 <ButtomWrapper>
@@ -89,14 +89,14 @@ function App() {
                             setClickedOutlinedRoundedGradientText(false)
                         }
                     >
-                        beep
+                        touch
                     </GradientOutlinedButtonText>
                 </ButtomWrapper>
                 <GradientOutlinedButtonRound
                     bgImage={{ firstColor: pinkMedium, secondColor: blueDark }}
                 >
                     <GradientOutlinedButtonText borderImage="none">
-                        i'm a sheep
+                        this
                     </GradientOutlinedButtonText>
                 </GradientOutlinedButtonRound>
             </MainWrapper>

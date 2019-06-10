@@ -15,5 +15,6 @@ export const GradientOutlinedButton = styled(OutlinedButton)`
     background-repeat: no-repeat;
     transition: .3s;
     color: ${props => props.clickedOutlinedGradient ? "#fff" : blueDark};
+    letter-spacing: 3px;
 `;
 

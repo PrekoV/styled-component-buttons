@@ -13,7 +13,7 @@ export const MainWrapper = styled.div`
     margin: 0 auto;
     padding: 30px 10px;
     background-color: #eef7f4;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -27,6 +27,3 @@ export const CircleButtonWrapper = styled.div`
     justify-content: space-around;
     align-items: center;
 `;
-
-
-
